@@ -1,26 +1,38 @@
-.topnav {
-  background-color: #fffffe;
-  overflow: hidden;
+body {
+  font-family: sans-serif;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #272343;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+#header {
+  position: relative;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #bae8e8;
-  color: #272343;
+#header .navbar-brand {
+  padding-top: 1.313rem;
+  padding-bottom: 1.313rem;
+  margin-left: 30px;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #ffd803;
-  color: #272343;
+#header .navbar-nav {
+  text-transform: uppercase;
+  margin-right: 20px !important;
+}
+
+#header .bg-nav {
+  background-color: #34495e;
+  color: white !important;
+}
+
+ul li a {
+  color: white !important;
+}
+
+#header .skew-header {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  transform: skewY(0deg, -5deg) translateY(100px);
 }
