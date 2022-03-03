@@ -36,3 +36,20 @@ ul li a {
   z-index: 999;
   transform: skewY(0deg, -5deg) translateY(100px);
 }
+
+#below-headbar div p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 27px;
+  color: #333;
+  width: 350px;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+.text-center {
+  text-align: center !important;
+  padding: 76px;
+}
